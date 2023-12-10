@@ -9,7 +9,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-        pygame.display.set_caption('Sprout land')
+        pygame.display.set_caption('Stardew Clone Game')
         self.clock = pygame.time.Clock()
         self.level = Level()
 
